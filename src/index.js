@@ -4,12 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//from W3 schools
+const myFirstElement = <h1>Hello React!</h1>
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App /> 
   </React.StrictMode>
 );
+
+//from W3 schools
+root.render(myFirstElement);
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
