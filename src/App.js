@@ -5,6 +5,7 @@ import Welcome from './Welcome';
 
 
 
+
 // function App() {
 //   return (
 //     <div className="App">
@@ -31,9 +32,12 @@ import Welcome from './Welcome';
 function App() {
   return (
     <div>
-    <Welcome name="Bob"/>
-    <Welcome name="Alice"/>
+      <Welcome/>
+      {/* <Welcome name="Bob"/>
+      <Welcome name="Alice"/>     */}
     </div>
+     
   );
+
 }
 export default App;
