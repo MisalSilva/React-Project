@@ -1,7 +1,8 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
-import Welcome from './Welcome';
+// import Welcome from './Welcome';
+import Partone from './components/Partone';
 
 
 
@@ -31,10 +32,9 @@ import Welcome from './Welcome';
 
 function App() {
   return (
-    <div>
-      <Welcome/>
-      {/* <Welcome name="Bob"/>
-      <Welcome name="Alice"/>     */}
+    <div> 
+      {/* <Welcome/> */}
+      <Partone/>
     </div>
      
   );
