@@ -6,7 +6,7 @@ function TodoList() {
                 <li>Learn React</li>
                 <li>build Components</li>
                 <li>Pass Props</li>
-                <li>Learn React</li>
+                <li>React Native</li>
                 <li>Learn React</li>
             </ul>
         </div>
